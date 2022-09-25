@@ -1,12 +1,12 @@
 # Music-recommendation-system
 
-Introduction 
+## Introduction 
 
  
 
 With the rising popularity of several music streaming platforms such as Deezer among others, the global music industry is expected to grow exponentially. With the ever-rising demand for online music streaming services, there comes the need to personalize the user experience and provide users with what they are looking for. A music recommendation system is a powerful tool for several music streaming service providers helping their users find the right music and enjoy a hassle-free music streaming experience. 
 
-What is the need for recommendations in the music streaming business? 
+## What is the need for recommendations in the music streaming business? 
 
 A music recommender solution is a solution that allows music streaming platforms to offer their users relevant music recommendations in real-time. It provides personalization and thus boosts user engagement. The recommender system is helpful to both service providers and users. It saves time for the user in finding and selecting a perfect song and at the same time, it also helps service providers retain customers for a longer time on their platform. 
 
@@ -22,7 +22,7 @@ The recommendation engine works with information about which songs or podcasts w
 
  The application of recommendation engine has and is bringing billions of revenues to several businesses, and it does the same to music streaming businesses too. It enhances the method of doing business online and gives a better return on investment. With advanced machine learning and AI, we can proudly say it will make customer retention and loyalty better than ever. 
 
-Analysis 
+## Analysis 
 
 For this project, we need to look at Deezer ‘s Flow, its own music recommendation radio. The concept of Flow uses collaborative filtering to provide a user with the music the user wants to listen at a given time.  
 
@@ -36,11 +36,11 @@ The test dataset consists in a list of the first recommended tracks on Flow for 
 
 Our first step was exploring the data and its features. In order to find the best solution for the given task we decided to use two approaches, classification, and Restricted Boltzmann Machine (RBM).  
 
-Classification 
+## Classification 
 
 Using the Random Forest Algorithm, we inspected the importance of the features and selected the most informative and important columns. With this step, now we are ready to train a model. There are several modelling algorithms one can choose from, that’s why is important to understand the problem and the solution we are aiming for. Our challenge is both a classification and a regression problem. We need to identify a relationship between the output, is a song listened or not, and the other variables as for example the timestamp of the listening, the type of the song and so on. We are also training our model with a given dataset using supervised learning and given these two criteria we can narrow down the choice of models to a few. Those are Logistic Regression, KNN. SVM, SGD.  The results we got from all the models in general were satisfying. We ranked the models to choose the best one that fits our problem, and while both Decision Tree (99.63) and Random Forest (99.63) have the same score, we decided to proceed with Random Forest as it better approaches the overfitting problem.  
 
-Restricted Boltzmann Machine (RBM) 
+## Restricted Boltzmann Machine (RBM) 
 
  
 
