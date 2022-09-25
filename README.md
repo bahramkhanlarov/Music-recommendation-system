@@ -54,6 +54,6 @@ Since we’re using PyTorch, we need to convert the data into Torch tensors. The
 
 Next, we convert these “ratings” into binary ratings since we want to make a binary classification. Then we continue with building our Restricted Boltzmann Machine (RBM) beginning with building its architecture, in other words building the architecture of the Neural Network. In the next step we continue with training the RBM Model by defining the number of epochs and defining the loop.  
 
-Next, we test our RBM. In this stage, we use the training set data to activate the hidden neurons in order to obtain the output. This is how we get the predicted output of the test set. We then use the absolute mean to compute the test loss. In the last stage we use our model to predict if the next song Y is going to be listened to by user X.  
+Next, we test our RBM. In this stage, we use the training set data to activate the hidden neurons in order to obtain the output. This is how we get the predicted output of the test set. We then use the absolute mean to compute the test loss. In the last stage we use our model to predict if the next song Y is going to be listened to by user X.   (Check the script here <ins>[this notebook](https://github.com/bkhan1820/Music-recommendation-system/blob/main/Bernoulli_RBM_Recommender_System%20(1).ipynb)</ins>)
 
  
